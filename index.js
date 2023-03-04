@@ -42,8 +42,6 @@ const keyPair = Keypair.fromSecretKey(new Uint8Array(byte_array));
 const newAuthority = Keypair.fromSecretKey(new Uint8Array(byte_array));
 const myCustomAuthority = Keypair.fromSecretKey(new Uint8Array(byte_array));
 
-// const myCustomToken = splToken.Token.createMint(connection, keyPair, keyPair.publicKey, null, 9, splToken.TOKEN_PROGRAM_ID)
-// console.log("myCustomToken",myCustomToken);
 
 export default function Home() {
   
