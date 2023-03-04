@@ -5,7 +5,6 @@ import { clusterApiUrl, Connection, PublicKey, Keypair } from "@solana/web3.js";
 import { useState,useMemo } from "react";
 import bs58 from 'bs58';
 import { MetaplexProvider } from './MetaplexProvider';
-// import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import {
   getLedgerWallet,
   getMathWallet,
